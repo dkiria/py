@@ -17,9 +17,14 @@ class GitStatus:
 
         lis = list ()
         for line in open('.gitignore'):
-            ldir = '/' +  line.rstrip('\n')
-            lis.append(ldir)
+            if line != '\n':
+                ldir = '/'+line.rstrip('\n')
+                lis.append(ldir)
+            else:
+                print "find empty line"
 
+          #ldir = '/' +  line.rstrip('\n')
+          #  lis.append(ldir)
         lis.append('/./')
         print "list "
         print  lis
