@@ -20,8 +20,8 @@ from ConfigParser import SafeConfigParser
 from random import randint
 from paramiko import SSHClient
 #from scp import SCPClient
+
 Config = ConfigParser.ConfigParser()
-#os.system('./yad_python.sh')
 config_file = raw_input("configfile: ") # doesnt matter if we echo username so use raw_input()
 Config.read(config_file)
 Config.sections()
