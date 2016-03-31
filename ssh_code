@@ -103,7 +103,7 @@ for i in Config.sections():
 		list1.append( FILE );
 	print list1
 
-	print "------------------------------" + "\n" + " " +  IP + USERNAME
+	print "-------------------------------" + "\n" + " " +  IP + USERNAME
 
 	scp (FILEPATH,SERVERPATH,IP,USERNAME,PASSWORD)
 	ssh1 = ssh(IP,USERNAME,PASSWORD)
