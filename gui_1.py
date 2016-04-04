@@ -3,7 +3,7 @@
 
 #-------------------------AUTHORS--------------------------
 
--Dimitris Kyriakatis <<dimitriskiriakatis@outlook.com.gr>>
+#-Dimitris Kyriakatis <<dimitriskiriakatis@outlook.com.gr>>
 
 #----------------------------------------------------------
 
