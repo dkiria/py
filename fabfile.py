@@ -85,3 +85,6 @@ def prepare_deploy():
         test()
         commit()
         push()
+        
+#run any function to: fab functon name  
+# e.g fab status
