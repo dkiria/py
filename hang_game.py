@@ -2,10 +2,6 @@
 import random
 
 
-# imports
-# constants
-
-
 HANGMAN = (
 """
  
@@ -109,7 +105,7 @@ HANGMAN = (
 MAX_WRONG = len(HANGMAN) - 1
 WORDS = ("CALL", "BOOK", "ACTIVITY", "RED", "INVITATION", "PYTHON")
 
-# initialize variables
+# variables
 word = random.choice(WORDS)  
 so_far = "-" * len(word)     
 wrong = 0                     
