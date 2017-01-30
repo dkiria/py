@@ -13,7 +13,7 @@ def do_something(sc):
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     try:
-        ssh.connect('192.168.1.254',username='root',password='shitNobrod',timeout=1)
+        ssh.connect('ip',username='user',password='passw',timeout=1)
         stdin, stdout, stderr = ssh.exec_command("tr069.pl read wan test14 ip",timeout=1,
                 get_pty=True)
         ip = stdout.read()
